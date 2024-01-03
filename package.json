@@ -4,7 +4,11 @@
     "description": "",
     "main": "server.js",
     "repository": {
-      "type": "git"
+      "type": "git",
+    "engines": {
+      "node": "12.11.1",
+      "npm": "8.5.5"
+      }
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
