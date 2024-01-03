@@ -8,15 +8,11 @@
     border-radius: 0.5em;
   }
   
-  /* body {
-    background-image: url('/images/Thomas_ChessBlogBackground.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  body {
+    background-color: aquamarine;
   }
-   */
   
-  /* Responsive Features */
+  
   
   @media screen and (min-width: 768px) {
   }
