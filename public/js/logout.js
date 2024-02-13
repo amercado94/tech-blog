@@ -1,4 +1,4 @@
-const chessLogout = async () => {
+const techLogout = async () => {
     const response = await fetch('/api/users/logout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -11,7 +11,7 @@ const chessLogout = async () => {
     }
   };
 
-  const chessLogoutButton = document.querySelector('#chess-logout');
-  if (chessLogoutButton) {
-    chessLogoutButton.addEventListener('click', chessLogout);
+  const techLogoutButton = document.querySelector('#tech-logout');
+  if (techLogoutButton) {
+    techLogoutButton.addEventListener('click', techLogout);
   }

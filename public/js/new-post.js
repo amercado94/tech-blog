@@ -1,8 +1,8 @@
-const newChessPostFormHandler = async (event) => {
+const newTechPostFormHandler = async (event) => {
     event.preventDefault();
   
-    const title = document.querySelector('#title-new-chess-post').value.trim();
-    const content = document.querySelector('#content-new-chess-post').value.trim();
+    const title = document.querySelector('#title-new-tech-post').value.trim();
+    const content = document.querySelector('#content-new-tech-post').value.trim();
   
     if (title && content) {
       const response = await fetch('/api/posts', {
@@ -19,7 +19,7 @@ const newChessPostFormHandler = async (event) => {
     }
   };
   
-  const newChessPostForm = document.querySelector('.new-chess-post-form');
-  if (newChessPostForm) {
-    newChessPostForm.addEventListener('submit', newChessPostFormHandler);
+  const newTechPostForm = document.querySelector('.new-tech-post-form');
+  if (newTechPostForm) {
+    newTechPostForm.addEventListener('submit', newTechPostFormHandler);
   }

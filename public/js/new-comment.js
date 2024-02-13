@@ -1,9 +1,9 @@
-const newChessCommentFormHandler = async (event) => {
+const newTechCommentFormHandler = async (event) => {
     event.preventDefault();
   
     const post_id = parseInt(window.location.pathname.split('/').pop());
   
-    const content = document.querySelector('#content-new-chess-comment').value.trim();
+    const content = document.querySelector('#content-new-tech-comment').value.trim();
   
     if (content) {
       const response = await fetch(`/api/comments`, {
@@ -24,7 +24,7 @@ const newChessCommentFormHandler = async (event) => {
   
   
   
-  const newChessCommentForm = document.querySelector('.new-chess-comment-form');
-  if (newChessCommentForm) {
-    newChessCommentForm.addEventListener('submit', newChessCommentFormHandler);
+  const newTechCommentForm = document.querySelector('.new-tech-comment-form');
+  if (newTechCommentForm) {
+    newTechCommentForm.addEventListener('submit', newTechCommentFormHandler);
   }

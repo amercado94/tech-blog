@@ -1,8 +1,8 @@
-const chessLoginFormHandler = async (event) => {
+const techLoginFormHandler = async (event) => {
     event.preventDefault();
 
-    const username = document.querySelector('#username-chess-login').value.trim();
-    const password = document.querySelector('#password-chess-login').value.trim();
+    const username = document.querySelector('#username-tech-login').value.trim();
+    const password = document.querySelector('#password-tech-login').value.trim();
 
     if (username && password) {
       
@@ -20,7 +20,7 @@ const chessLoginFormHandler = async (event) => {
     }
   };
   
-  const chessLoginForm = document.querySelector('.chess-login-form');
-  if (chessLoginForm) {
-    chessLoginForm.addEventListener('submit', chessLoginFormHandler);
+  const techLoginForm = document.querySelector('.tech-login-form');
+  if (techLoginForm) {
+    techLoginForm.addEventListener('submit', techLoginFormHandler);
   }
