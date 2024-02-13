@@ -7,7 +7,7 @@ I created a Tech Blog where you need to create an account before posting. Once y
 Link to walkthrough: https://drive.google.com/file/d/1WtAp7jFUj0bvCi3SYOUf4J-TEu9AViG2/view
 
 ## Technologies Used
-For this application I used VSCode, Node.js, Mongoose, MogoDB, Express, and Isomnia to run and test the routes for the API.
+For this application I used VSCode, Node.js, Express, and Isomnia.
 
 ## Questions
 Please send your questions [here](mailto:AlfredoMercado1994@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/amercado94](https://github.com/amercado94)
